@@ -1,0 +1,34 @@
+/*footer*/
+$color: black, grey, white;
+$color1: black;
+$margin-top:50px;
+
+.bg--footer {
+  margin-top:$margin-top; /*desafío060521*/
+  background-image: linear-gradient(to bottom, $color);
+  text-align: justify-all; }
+
+.logo__ubicacion--footer {
+  padding-left: 50px;
+  width: 27%; }
+
+.bloque__footer {
+  width: 5%; }
+
+.saltoDeLinea {
+  display: block; }
+  
+/* agregado a nuevo desafío060521*/
+.redes {
+  color:$color1;
+  font-weight: bold;
+}  
+
+
+@media only screen and (max-width: 768px) {
+  .bg--footer {
+    text-align: center; }
+  .logo__ubicacion--footer {
+    padding-left: 0px;
+    width: 25%; } }
+

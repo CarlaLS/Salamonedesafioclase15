@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*footer*/
+.bg--footer {
+  margin-top: 50px;
+  /*desafío060521*/
+  background-image: linear-gradient(to bottom, black, grey, white);
+  text-align: justify-all; }
+
+.logo__ubicacion--footer {
+  padding-left: 50px;
+  width: 27%; }
+
+.bloque__footer {
+  width: 5%; }
+
+.saltoDeLinea {
+  display: block; }
+
+/* agregado a nuevo desafío060521*/
+.redes {
+  color: black;
+  font-weight: bold; }
+
+@media only screen and (max-width: 768px) {
+  .bg--footer {
+    text-align: center; }
+  .logo__ubicacion--footer {
+    padding-left: 0px;
+    width: 25%; } }
+
+/*navbar*/
+.navbar {
+  background-image: linear-gradient(to bottom, black, grey, white);
+  min-height: 70px;
+  padding: 30px;
+  /*agregado desafío060521*/ }
+
+.nav-link {
+  color: black;
+  font-weight: bold; }
+
+.navbar-toggler {
+  font-size: 25px; }
+
+/*body*/
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.row {
+  margin-right: 0px; }
+
+/*nuevo desafío060521*/
+h1 {
+  font-size: 49px; }
+
+h2 {
+  font-size: 43px; }
+
+h3 {
+  font-size: 37px; }
+
+h4 {
+  font-size: 31px; }
+
+h5 {
+  font-size: 25px; }
+
+h6 {
+  font-size: 19px; }
+
+/*section*/
+.img__fluid {
+  padding-left: 10px;
+  width: 100%; }
+
+/*productos*/
+.card--img {
+  width: 60%;
+  margin-left: 80px; }
+
+.card {
+  text-align: center;
+  border: none; }
+
+@media only screen and (max-width: 768px) {
+  .card--img {
+    margin-left: 50px; } }
+
+/*tabladetalles*/
+.table {
+  text-align: center; }
+
+.form_wrap {
+  width: 1050px;
+  height: 530px;
+  margin: 50px, auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
+
+.form_contact {
+  width: 100%;
+  padding: 30px 40px; }
+
+form.form_contact .user_info {
+  display: flex;
+  flex-direction: column; }
+
+form.form_contact label {
+  font-weight: bold;
+  font-size: 16px; }
+
+form.form_contact input,
+form.form_contact textarea {
+  width: 100%;
+  paddign: 8px 0px 0px 5px;
+  border: none;
+  border-bottom: 3px solid grey;
+  color: black;
+  font-size: 16px;
+  font-weight: 400; }
+
+:focus {
+  outline: none; }

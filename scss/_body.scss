@@ -1,0 +1,15 @@
+
+/*body*/
+
+.container-fluid {
+  padding-left: 0px; padding-right: 0px; }
+.row {
+  margin-right: 0px;
+}
+  
+/*nuevo desafío060521*/
+@for $i from 1 through 6 {
+	h#{$i}{
+	font-size:55px -(6*$i);
+	}
+}
